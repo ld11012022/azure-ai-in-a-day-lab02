@@ -90,7 +90,7 @@ stages:
     - task: ManualIntervention@8
       inputs:
         instructions: 'Please approve registered model'
-        emailRecipients: 'ld11012022@outlook.com'
+        emailRecipients: 'luke.duffy@duffit.com'
   - job: "Training_Run_Report"
     dependsOn: "Run_ML_Pipeline"
     condition: always()
